@@ -15,10 +15,18 @@ function input(msg) {
   let num;
   do {
     num = prompt(msg);
-    if (!Number.isInteger(parseFloat(num))) {
-      console.log("Informe um número inteiro válido.");
+    if (
+      !Number.isInteger(parseFloat(num)) ||
+      parseInt(num) < 1 ||
+      parseInt(num) > 3
+    ) {
+      console.log("Informe um número inteiro válido entre 1 e 3.");
     }
-  } while (!Number.isInteger(parseFloat(num)));
+  } while (
+    !Number.isInteger(parseFloat(num)) ||
+    parseInt(num) < 1 ||
+    parseInt(num) > 3
+  );
   return parseInt(num);
 }
 

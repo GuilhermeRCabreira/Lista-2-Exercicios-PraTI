@@ -10,6 +10,8 @@ let tentativa = input("Tente adivinhar o número sorteado (1 a 5): ");
 
 verificacao(numeroSorteado, tentativa);
 
+console.log(`Número sorteado: ${numeroSorteado}`);
+
 function input(msg) {
   let num;
   do {

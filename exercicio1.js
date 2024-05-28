@@ -29,5 +29,7 @@ function lifetime(numCigarros, numAnos) {
   let tempoPerdido = numCigarrosTotal * 10;
   let diasPerdidos = tempoPerdido / 1440;
 
-  console.log("Quantidades de dias perdidos: " + diasPerdidos + " dias.");
+  console.log(
+    "Quantidades de dias perdidos: " + diasPerdidos.toFixed(0) + " dias."
+  );
 }

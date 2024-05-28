@@ -44,3 +44,25 @@ function input(msg) {
   } while (parseFloat(num) <= 0 || isNaN(parseFloat(num)));
   return parseFloat(num);
 }
+
+function inputSexo(msg) {
+  let sexo;
+  do {
+    sexo = prompt(msg);
+    if (sexo != "M" && sexo != "F") {
+      console.log("Erro, você deve informar M ou F.");
+    }
+  } while (sexo != "M" && sexo != "F");
+  return sexo;
+}
+
+function inputContinuar(msg) {
+  let continuar;
+  do {
+    continuar = prompt(msg);
+    if (continuar != "S" && continuar != "N") {
+      console.log("Erro, você deve informar S ou N.");
+    }
+  } while (continuar != "S" && continuar != "N");
+  return continuar == "S";
+}
