@@ -25,8 +25,8 @@ Este repositório contém exercícios referentes ao módulo 1 sobre lógica de p
 ## Execução dos Exercícios
 
 1. Abra o terminal no VS Code.
-2. Para executar um exercício, utilize o comando `node` seguido do nome do arquivo JavaScript correspondente. Como:
+2. Para executar a lista de exercícios, utilize o comando `node` seguido do nome do arquivo JavaScript. Como:
    ```
      node index.js
      ```
-3. Após digite o número do arquivo que deseja executar.
+3. Após digite o número do exercício que deseja executar.
