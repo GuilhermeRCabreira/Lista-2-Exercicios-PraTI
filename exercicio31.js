@@ -11,9 +11,9 @@ console.log(
 let A = input("Digite um número inteiro: ");
 let V = [];
 
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 30; i++) {
   let linhas = [];
-  for (let j = 0; j < 3; j++) {
+  for (let j = 0; j < 30; j++) {
     linhas.push(input(`Digite o valor da posição [${i}][${j}]: `));
   }
   V.push(linhas);
